@@ -1,0 +1,7 @@
+# pycache
+.pytest_cache
+.idea
+.vscode
+.env
+__pycache__
+```
