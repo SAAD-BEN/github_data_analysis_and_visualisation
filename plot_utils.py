@@ -39,7 +39,7 @@ def draw_points_graph(x, y, average=True, title="Graph"):
         y = y.groupby(y.index // 1000).mean()
 
     # create a new plot with a specific size
-    p = figure(sizing_mode="stretch_width", max_width=500, height=250, title=title)
+    p = figure(sizing_mode="stretch_width", max_width=1000, height=600, title=title)
 
     # add a circle renderer
     circle = p.circle(x, y, fill_color="red", size=4)

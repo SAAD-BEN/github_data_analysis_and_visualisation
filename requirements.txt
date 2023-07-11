@@ -1,0 +1,5 @@
+seaborn
+sikit-learn
+bokeh
+pandas
+numpy
